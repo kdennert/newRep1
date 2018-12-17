@@ -106,7 +106,7 @@ module.exports = function (app, config) {
             });
         },
         imageName: function (req, image, cb) {
-            image.imageName = file.originalname;
+            productImage.imageName = file.originalname;
             cb(null, file.fieldname + '-' + Date.now());
         }
     });
