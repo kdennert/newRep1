@@ -47,7 +47,7 @@ define('app',["exports", "aurelia-auth"], function (_exports, _aureliaAuth) {
 
   _exports.App = App;
 });
-define('text!app.html',[],function(){return "<template>\n  <nav-bar></nav-bar>\n  <router-view></router-view>\n</template>";});
+define('text!app.html',[],function(){return "<template>\n  <nav-bar></nav-bar>\n  <router-view></router-view>\n  <link rel=\"stylesheet\" href=\"public/styles.css\" />\n</template>";});
 define('auth-config',["exports"], function (_exports) {
   "use strict";
 
